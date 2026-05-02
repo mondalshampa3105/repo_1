@@ -103,3 +103,45 @@ proxy_cache_bypass $http_upgrade;
 }
 
 sudo systemctl restart nginx
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Static Website</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is the home page hosted on AWS S3.</p>
+
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello! I am learning to build static websites using AWS S3.</p>
+
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>Email: example@email.com</p>
+
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a>
+</body>
+</html>
