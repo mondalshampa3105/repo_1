@@ -1,5 +1,6 @@
-http://github.com/sudip7407/Repo1
-assg 10: #! /bin/bash
+http://github.com/sudip7407/Repo2
+
+#! /bin/bash
 
 apt-get update
 
@@ -83,7 +84,7 @@ git remote add origin
 
 git push -u origin master
 
-Asg 12: pwd cd / ls cd etc/nginx cd sites-available ls sudo nano default
+Asg 12: pwd cd / ls cd etc/nginx/sites-available ls sudo nano default
 
 In location: location / {
 
@@ -101,4 +102,4 @@ proxy_cache_bypass $http_upgrade;
 
 }
 
-sudo systemctl start nginx
+sudo systemctl restart nginx
